@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Build
+build/
+dist/
+*.spec.bak
+
+# ELintelligence local data
+data/
+runtime/
+models/
+documents/
+
+# AI models
+*.gguf
+*.ggml
+*.bin
+
+# RAG / local state
+rag_index.json
+chat.json
+settings.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# Windows binaries
+*.exe
+*.dll
+*.pdb
+
+# Logs/temp
+*.log
+*.tmp
+*.temp
+~$*
+Thumbs.db
+desktop.ini
+
+# Portable runtime state
+PORTABLE.flag
