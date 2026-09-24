@@ -35,7 +35,12 @@ The current preset download URLs point to these exact repositories:
 - **Gemma 4 E2B IT QAT — Unsloth GGUF quantization**  
   Repository: `unsloth/gemma-4-E2B-it-qat-GGUF`  
   Repository metadata license: **Apache-2.0**  
-  https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF
+  https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF  
+  **Note:** Gemma model weights are additionally subject to Google's Gemma Terms of Use,
+  which impose restrictions beyond Apache-2.0 (including limitations on using model output
+  to train other models and on competing uses). Users must review and accept those terms
+  before downloading or using Gemma weights.  
+  https://ai.google.dev/gemma/terms
 
 - **Qwen3 0.6B — ggml-org GGUF quantization**  
   Repository: `ggml-org/Qwen3-0.6B-GGUF`  
